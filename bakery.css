@@ -1,0 +1,374 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+
+body{
+    padding-top:0;
+    line-height: 1;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'alegreya';
+    src: url('fonts/AlegreyaSC-Black.otf');
+    src: url('fonts/Alegreya-Bold.otf');
+    src: url('fonts/AlegreyaSC-Regular.otf');
+}
+@font-face{
+    font-family: 'alegreyareg';
+    src: url('fonts/Alegreya-Regular.otf');
+}
+@font-face{
+    font-family: 'playfair';
+    src: url('fonts/playfair/PlayfairDisplay-Black.otf');
+    src: url('fonts/playfair/PlayfairDisplay-Bold.otf');
+    src: url('fonts/playfair/PlayfairDisplay-BoldItalic.otf');
+    src: url('fonts/playfair/PlayfairDisplay-Regular.otf');
+}
+header{
+
+    width: 100%;
+    background: rgba(162, 157, 157, 0.5);
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style-type: none;
+    position: relative;
+    align-content: center;
+    margin-block-start: 0;
+    padding: 20px 10px;
+}
+
+nav li{
+    display: inline-block;
+    align-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'alegreya';
+    font-size: 15px;
+}
+nav p{
+    display: inline;
+    color: white;
+
+}
+
+.logo{
+    font-family: 'scriptinaregular';
+    font-size: 2em;
+    color: white;
+    padding-right: 6%;
+    padding-left: 10%;
+}
+
+section{
+    padding: 20vh 7vw 5vh 7vw;
+}
+
+.openpage{
+    background-image: url("imagens/pastry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 49em;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.maintext{
+    padding-top: 8em;
+    text-align: center;
+}
+
+.linhatraco{
+ height: 300p;
+ margin-bottom: 73px;
+}
+
+.redes, .logo, nav{
+    display: inline-block;
+}
+
+.redes{
+    width: 20%;
+    margin-left: 60px;
+    }
+h1, h2{
+    color: white;
+}
+
+h1{
+    font-family: 'playfair';
+    font-weight: bold;
+    font-size: 5em;
+}
+
+h2{
+    font-family: 'proxima_nova_ltthin';
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'playfair';
+    color: #aa8568;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.face, .twitter, .insta{
+    vertical-align: middle;
+}
+.face{
+    width: 25px;
+}
+.insta{
+    width:20px;
+}
+.twitter{
+    width: 20px;
+}
+.sociais{
+    align-content: center;
+}
+li{
+    display: inline-block;
+    align-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.separador{
+    font-size: 12px;
+}
+
+.dashedline{
+    
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 50px;
+    height: 5px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.dashedb{
+    display: inline-block;
+    background-color:transparent;
+    margin-top: 100px;
+    height: 5px;
+    margin-left: -70px;
+    width: 190px;
+    margin-bottom: 10px;
+}
+.lastcurvy{
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 20px;
+    height: 5px;
+    border-radius: 50% 0 0 0 ;
+    margin-left: -90px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.lastcurvy:before{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    border-top: 7px dashed white;
+    height: 60px;
+    margin-left: 32px;
+    top: 464px;
+    border-radius: 19% 0 0 0 ;
+    width: 10px;
+    margin-bottom: 10px;
+}
+
+
+.dashedline:before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    display: block;
+    width: 27px;
+    height: 8px;
+    border-top: 7px dashed white;
+    border-radius: 9% 100% 17% 57%;
+    top: 462px;
+    margin-left: 23px;
+}
+
+.dashedline:after{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    display: block;
+    width: 50px;
+    height: 10px;
+    border-bottom: 7px dashed white;
+    border-radius: 39% 12% 29% 73%;
+    
+    margin-left: 54px;
+
+    top: 466px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dashedb:before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    display: block;
+    width: 48px;
+    height: 18px;
+    border-top: 7px dashed white;
+    border-radius: 110% 115% 100% 100%;;
+    margin-left: 26px;
+
+    top: 462px;
+}
+
+.dashedb:after{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    display: block;
+    width: 51px;
+    height: 10px;
+    border-bottom: 7px dashed white;
+    border-radius: 0% 0% 100% 100%;
+  
+    margin-left: 82px;
+    top: 468px;
+}
+
+.botonpao{
+    background-color: white;
+    position: absolute;
+    margin-left: 42vw;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+    margin-top: -90px;
+    border-radius: 50%;
+    z-index: 20;
+    align-items: center;
+    box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) ;}
+
+
+.imgcircular{
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: contain;
+    z-index: 10;
+
+}
+#pao{
+    background-image: url('imagens/pao.png');
+}
+
+.artcake{
+    background-color: #faf9f4;
+    position: relative;
+    height: 50em;
+    margin-top: -40px;
+}
+
+.about, .tastes{
+width: 40vw;
+}
+
+.about{
+    text-align: center;
+}
+
+.art{
+    font-family: 'alegreyareg';
+    font-weight: bold;
+    font-size: 3.5em;
+    color: #56534c;
+    margin-top: 2vh;
+}
+
+.subtitle{
+    padding-top: 5px;
+}
+
+.info{
+    font-family: 'alegreyareg';
+    padding: 10vh 8vh 3vh 8vh;
+    color:#56534c;
+    line-height: 1.5;
+}
+
+.menor{
+    font-size: 1.8em;
+    padding-bottom: 5vh;
+}
+
+.chef{
+    display: inline-block;
+    background-image: url('imagens/img10.png');
+    background-position: 25% 10%;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    background-size: 260%;
+}
+
+.direita, .esquerda{
+    display: inline-block;
+    background-color: grey;
+    height: 120px;
+    width: 30px;
+    z-index: 0;
+}
+
+.direita{
+    left: 20px;
+}
